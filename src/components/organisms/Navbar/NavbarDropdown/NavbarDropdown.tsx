@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
-
+import { useState } from 'react';
 import { isArrowDown, isArrowUp, isEnter, isEscape, isSpace } from '../../../../helpers/keyboard-keys';
 import { mod } from '../../../../helpers/utils';
 import NavbarDropdownList from './NavbarDropdownList/NavbarDropdownList';
@@ -62,167 +62,136 @@ export interface NavbarDropdownState {
   open: boolean;
 }
 
-export default class NavbarDropdown extends React.Component<NavbarDropdownProps, NavbarDropdownState> {
-  static defaultProps: DefaultNavbarDropdownProps = {
-    renderItem: ({ item: { label, href, ['data-automation']: dataAutomation = 'ZA.navbar-item' }, getItemProps }) => (
-      <NavbarLink href={href} {...getItemProps()} isDropdownLink data-automation={dataAutomation}>
-        {label}
-      </NavbarLink>
-    ),
+const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
+  id,
+  label,
+  items,
+  renderItem = ({ item: { label, href, ['data-automation']: dataAutomation = 'ZA.navbar-item' }, getItemProps }) => (
+    <NavbarLink href={href} {...getItemProps()} isDropdownLink data-automation={dataAutomation}>
+      {label}
+    </NavbarLink>
+  ),
+  'aria-label': ariaLabel,
+  'data-automation': dataAutomation,
+}) => {
+  const [open, setOpen] = useState(false);
+  const [cursor, setCursor] = useState(0);
+  const dropdownRef = React.createRef<HTMLLIElement>();
+  const openerRef = React.createRef<HTMLAnchorElement | HTMLButtonElement>();
+  const itemsRefs: React.RefObject<HTMLLIElement>[] = items.map(() => React.createRef<HTMLLIElement>());
+  const handleFocusOutside = (e: Event) => {
+    if (dropdownRef && dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+      setCursor(0);
+      setOpen(false);
+    }
   };
-
-  private readonly dropdownRef = React.createRef<HTMLLIElement>();
-  private readonly openerRef = React.createRef<HTMLAnchorElement | HTMLButtonElement>();
-  private readonly itemsRefs: React.RefObject<HTMLLIElement>[] = [];
-
-  public constructor(props: NavbarDropdownProps) {
-    super(props);
-    this.itemsRefs = props.items.map(() => React.createRef<HTMLLIElement>());
-    this.state = {
-      cursor: 0,
-      open: false,
+  const handleEscapeKey = (e: KeyboardEvent) => {
+    if (open && isEscape(e)) {
+      setOpen(false);
+      setCursor(0);
+      if (openerRef && openerRef.current) {
+        openerRef.current.focus();
+      }
+    }
+  };
+  useEffect(() => {
+    document.addEventListener('focus', handleFocusOutside, true);
+    document.addEventListener('mousedown', handleFocusOutside, true);
+    document.addEventListener('keydown', handleEscapeKey, true);
+    return () => {
+      document.addEventListener('focus', handleFocusOutside, true);
+      document.addEventListener('mousedown', handleFocusOutside, true);
+      document.addEventListener('keydown', handleEscapeKey, true);
     };
-  }
+  }, [handleFocusOutside, handleEscapeKey]);
 
-  public componentDidMount() {
-    document.addEventListener('focus', this.handleFocusOutside, true);
-    document.addEventListener('mousedown', this.handleFocusOutside, true);
-    document.addEventListener('keydown', this.handleEscapeKey, true);
-  }
-
-  public componentWillUnmount() {
-    document.removeEventListener('focus', this.handleFocusOutside, true);
-    document.removeEventListener('mousedown', this.handleFocusOutside, true);
-    document.removeEventListener('keydown', this.handleEscapeKey, true);
-  }
-
-  public getOpenerProps = (): OpenerProps => ({
-    'aria-expanded': this.state.open,
-    'aria-haspopup': true,
-    onClick: this.handleOpenerClick,
-    onKeyDown: this.handleOpenerKeyDown,
-    ref: this.openerRef,
-    tabIndex: 0,
-  });
-
-  public getItemProps = (index: number) => () => ({
-    onKeyDown: this.handleItemKeyDown,
-    ref: this.itemsRefs[index],
-    tabIndex: -1,
-  });
-
-  public render() {
-    const { getOpenerProps, close } = this;
-    const { renderItem, items, label, id, 'aria-label': ariaLabel } = this.props;
-    const { open } = this.state;
-
-    return (
-      <NavbarDropdownContainer ref={this.dropdownRef}>
-        <NavbarLink
-          open={open}
-          withChevron={true}
-          href="#"
-          {...getOpenerProps()}
-          data-automation={this.props['data-automation'] ?? 'ZA.navbar-item'}
-        >
-          {label}
-        </NavbarLink>
-        {/* To avoid an undefined aria-label the fallback to label was added when aria-label property is not defined */}
-        {/* TODO remove fallback to label */}
-        <NavbarDropdownList
-          aria-label={ariaLabel ? ariaLabel : typeof label === 'string' ? label : undefined}
-          open={open}
-        >
-          {items.map((item, index) => (
-            <li key={`${id}-${index}`}>
-              {renderItem({
-                close,
-                getItemProps: this.getItemProps(index),
-                item,
-              })}
-            </li>
-          ))}
-        </NavbarDropdownList>
-      </NavbarDropdownContainer>
-    );
-  }
-
-  public close = () => {
-    this.setState({ open: false });
-  };
-
-  private handleOpenerKeyDown = (e: React.KeyboardEvent<ButtonLinkElement>) => {
-    if (isArrowUp(e)) {
-      e.preventDefault();
-      this.setState(
-        {
-          cursor: this.itemsRefs.length - 1,
-          open: true,
-        },
-        this.focusOnItem,
-      );
-    } else if (isArrowDown(e) || isEnter(e) || isSpace(e)) {
-      e.preventDefault();
-      this.setState(
-        {
-          cursor: 0,
-          open: true,
-        },
-        this.focusOnItem,
-      );
-    }
-  };
-
-  private handleItemKeyDown = (e: React.KeyboardEvent<ButtonLinkElement>) => {
-    const { length } = this.itemsRefs;
-    if (isArrowUp(e)) {
-      e.preventDefault();
-      this.setState(
-        (prevState) => ({
-          cursor: mod(prevState.cursor - 1, length),
-        }),
-        this.focusOnItem,
-      );
-    } else if (isArrowDown(e)) {
-      e.preventDefault();
-      this.setState(
-        (prevState) => ({
-          cursor: mod(prevState.cursor + 1, length),
-        }),
-        this.focusOnItem,
-      );
-    }
-  };
-
-  private handleOpenerClick = (e: React.MouseEvent) => {
+  const handleOpenerClick = (e: React.MouseEvent) => {
     e.preventDefault();
-    this.setState((prevState) => ({ open: !prevState.open }));
+    setOpen((prevState) => !prevState);
   };
 
-  private focusOnItem = () => {
-    const { cursor } = this.state;
-    const itemRef = this.itemsRefs[cursor];
+  const focusOnItem = () => {
+    const itemRef = itemsRefs[cursor];
     if (itemRef && itemRef.current) {
       itemRef.current.focus();
     }
   };
 
-  private handleFocusOutside = (e: Event) => {
-    if (this.dropdownRef && this.dropdownRef.current && !this.dropdownRef.current.contains(e.target as Node)) {
-      this.setState({
-        cursor: 0,
-        open: false,
-      });
+  const handleItemKeyDown = (e: React.KeyboardEvent<ButtonLinkElement>) => {
+    const { length } = itemsRefs;
+
+    if (isArrowUp(e)) {
+      e.preventDefault();
+      setCursor((prevState) => mod(prevState - 1, length));
+      focusOnItem();
+    } else if (isArrowDown(e)) {
+      e.preventDefault();
+      setCursor((prevState) => mod(prevState + 1, length));
+      focusOnItem();
+    }
+  };
+  const handleOpenerKeyDown = (e: React.KeyboardEvent<ButtonLinkElement>) => {
+    if (isArrowUp(e)) {
+      e.preventDefault();
+      setCursor(itemsRefs.length - 1);
+      setOpen(true);
+      focusOnItem();
+    } else if (isArrowDown(e) || isEnter(e) || isSpace(e)) {
+      e.preventDefault();
+      setCursor(0);
+      setOpen(true);
+      focusOnItem();
     }
   };
 
-  private handleEscapeKey = (e: KeyboardEvent) => {
-    if (this.state.open && isEscape(e)) {
-      this.setState({ open: false, cursor: 0 }, () => {
-        if (this.openerRef && this.openerRef.current) {
-          this.openerRef.current.focus();
-        }
-      });
-    }
+  const getOpenerProps = (): OpenerProps => ({
+    'aria-expanded': open,
+    'aria-haspopup': true,
+    onClick: handleOpenerClick,
+    onKeyDown: handleOpenerKeyDown,
+    ref: openerRef,
+    tabIndex: 0,
+  });
+
+  const getItemProps = (index: number) => () => ({
+    onKeyDown: handleItemKeyDown,
+    ref: itemsRefs[index],
+    tabIndex: -1,
+  });
+
+  const close = () => {
+    setOpen(false);
   };
-}
+
+  return (
+    <NavbarDropdownContainer ref={dropdownRef}>
+      <NavbarLink
+        open={open}
+        withChevron={true}
+        href="#"
+        {...getOpenerProps()}
+        data-automation={dataAutomation ?? 'ZA.navbar-item'}
+      >
+        {label}
+      </NavbarLink>
+      {/* To avoid an undefined aria-label the fallback to label was added when aria-label property is not defined */}
+      {/* TODO remove fallback to label */}
+      <NavbarDropdownList
+        aria-label={ariaLabel ? ariaLabel : typeof label === 'string' ? label : undefined}
+        open={open}
+      >
+        {items.map((item, index) => (
+          <li key={`${id}-${index}`}>
+            {renderItem({
+              close,
+              getItemProps: getItemProps(index),
+              item,
+            })}
+          </li>
+        ))}
+      </NavbarDropdownList>
+    </NavbarDropdownContainer>
+  );
+};
+
+export default NavbarDropdown;
