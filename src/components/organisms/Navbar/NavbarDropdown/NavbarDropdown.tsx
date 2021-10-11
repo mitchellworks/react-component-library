@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef, RefObject } from 'react';
 import styled from 'styled-components';
-import { useState } from 'react';
 import { isArrowDown, isArrowUp, isEnter, isEscape, isSpace } from '../../../../helpers/keyboard-keys';
 import { mod } from '../../../../helpers/utils';
 import NavbarDropdownList from './NavbarDropdownList/NavbarDropdownList';
@@ -57,11 +56,6 @@ export interface NavbarDropdownProps extends DefaultNavbarDropdownProps {
   'data-automation'?: string;
 }
 
-export interface NavbarDropdownState {
-  cursor: number;
-  open: boolean;
-}
-
 const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
   id,
   label,
@@ -76,9 +70,9 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
 }) => {
   const [open, setOpen] = useState(false);
   const [cursor, setCursor] = useState(0);
-  const dropdownRef = React.createRef<HTMLLIElement>();
-  const openerRef = React.createRef<HTMLAnchorElement | HTMLButtonElement>();
-  const itemsRefs: React.RefObject<HTMLLIElement>[] = items.map(() => React.createRef<HTMLLIElement>());
+  const dropdownRef = useRef<HTMLLIElement>(null);
+  const openerRef = useRef<HTMLAnchorElement | HTMLButtonElement>(null);
+  const itemsRefs: RefObject<HTMLLIElement>[] = items.map(() => useRef<HTMLLIElement>(null));
   const handleFocusOutside = (e: Event) => {
     if (dropdownRef && dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
       setCursor(0);
@@ -94,6 +88,7 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
       }
     }
   };
+
   useEffect(() => {
     document.addEventListener('focus', handleFocusOutside, true);
     document.addEventListener('mousedown', handleFocusOutside, true);
