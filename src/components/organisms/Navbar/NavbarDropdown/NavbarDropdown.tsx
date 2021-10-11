@@ -73,12 +73,14 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
   const dropdownRef = useRef<HTMLLIElement>(null);
   const openerRef = useRef<HTMLAnchorElement | HTMLButtonElement>(null);
   const itemsRefs: RefObject<HTMLLIElement>[] = items.map(() => useRef<HTMLLIElement>(null));
+
   const handleFocusOutside = (e: Event) => {
     if (dropdownRef && dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
       setCursor(0);
       setOpen(false);
     }
   };
+
   const handleEscapeKey = (e: KeyboardEvent) => {
     if (open && isEscape(e)) {
       setOpen(false);
@@ -117,14 +119,19 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
 
     if (isArrowUp(e)) {
       e.preventDefault();
-      setCursor((prevState) => mod(prevState - 1, length));
-      focusOnItem();
+      setCursor((prevState) => {
+        itemsRefs[mod(prevState - 1, length)].current?.focus();
+        return mod(prevState - 1, length);
+      });
     } else if (isArrowDown(e)) {
       e.preventDefault();
-      setCursor((prevState) => mod(prevState + 1, length));
-      focusOnItem();
+      setCursor((prevState) => {
+        itemsRefs[mod(prevState + 1, length)].current?.focus();
+        return mod(prevState + 1, length);
+      });
     }
   };
+
   const handleOpenerKeyDown = (e: React.KeyboardEvent<ButtonLinkElement>) => {
     if (isArrowUp(e)) {
       e.preventDefault();
