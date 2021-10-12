@@ -5,8 +5,12 @@ import { mod } from '../../../../helpers/utils';
 import NavbarDropdownList from './NavbarDropdownList/NavbarDropdownList';
 import NavbarLink from '../NavbarLink/NavbarLink';
 
-const NavbarDropdownContainer = styled.li`
+const NavbarDropdownMenuItemContainer = styled.li`
   position: relative;
+  display: inline-block;
+`;
+const NavbarDropdownListContainer = styled.li`
+  list-style-type: none;
   display: inline-block;
 `;
 
@@ -70,12 +74,19 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
 }) => {
   const [open, setOpen] = useState(false);
   const [cursor, setCursor] = useState(0);
-  const dropdownRef = useRef<HTMLLIElement>(null);
+  const dropdownMenuItemRef = useRef<HTMLLIElement>(null);
+  const dropdownListRef = useRef<HTMLUListElement>(null);
   const openerRef = useRef<HTMLAnchorElement | HTMLButtonElement>(null);
   const itemsRefs: RefObject<HTMLLIElement>[] = items.map(() => useRef<HTMLLIElement>(null));
 
   const handleFocusOutside = (e: Event) => {
-    if (dropdownRef && dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+    if (dropdownListRef && dropdownListRef.current && !dropdownListRef.current.contains(e.target as Node)) {
+      setCursor(0);
+      setOpen(false);
+    }
+  };
+  const handleMouseDown = (e: Event) => {
+    if (dropdownMenuItemRef && dropdownMenuItemRef.current && !dropdownMenuItemRef.current.contains(e.target as Node)) {
       setCursor(0);
       setOpen(false);
     }
@@ -93,11 +104,11 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
 
   useEffect(() => {
     document.addEventListener('focus', handleFocusOutside, true);
-    document.addEventListener('mousedown', handleFocusOutside, true);
+    document.addEventListener('mousedown', handleMouseDown, true);
     document.addEventListener('keydown', handleEscapeKey, true);
     return () => {
       document.addEventListener('focus', handleFocusOutside, true);
-      document.addEventListener('mousedown', handleFocusOutside, true);
+      document.addEventListener('mousedown', handleMouseDown, true);
       document.addEventListener('keydown', handleEscapeKey, true);
     };
   }, [handleFocusOutside, handleEscapeKey]);
@@ -166,33 +177,38 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
   };
 
   return (
-    <NavbarDropdownContainer ref={dropdownRef}>
-      <NavbarLink
-        open={open}
-        withChevron={true}
-        href="#"
-        {...getOpenerProps()}
-        data-automation={dataAutomation ?? 'ZA.navbar-item'}
-      >
-        {label}
-      </NavbarLink>
-      {/* To avoid an undefined aria-label the fallback to label was added when aria-label property is not defined */}
-      {/* TODO remove fallback to label */}
-      <NavbarDropdownList
-        aria-label={ariaLabel ? ariaLabel : typeof label === 'string' ? label : undefined}
-        open={open}
-      >
-        {items.map((item, index) => (
-          <li key={`${id}-${index}`}>
-            {renderItem({
-              close,
-              getItemProps: getItemProps(index),
-              item,
-            })}
-          </li>
-        ))}
-      </NavbarDropdownList>
-    </NavbarDropdownContainer>
+    <>
+      <NavbarDropdownMenuItemContainer ref={dropdownMenuItemRef}>
+        <NavbarLink
+          open={open}
+          withChevron={true}
+          href="#"
+          {...getOpenerProps()}
+          data-automation={dataAutomation ?? 'ZA.navbar-item'}
+        >
+          {label}
+        </NavbarLink>
+        {/* To avoid an undefined aria-label the fallback to label was added when aria-label property is not defined */}
+        {/* TODO remove fallback to label */}
+      </NavbarDropdownMenuItemContainer>
+      <NavbarDropdownListContainer>
+        <NavbarDropdownList
+          aria-label={ariaLabel ? ariaLabel : typeof label === 'string' ? label : undefined}
+          open={open}
+          ref={dropdownListRef}
+        >
+          {items.map((item, index) => (
+            <li key={`${id}-${index}`}>
+              {renderItem({
+                close,
+                getItemProps: getItemProps(index),
+                item,
+              })}
+            </li>
+          ))}
+        </NavbarDropdownList>
+      </NavbarDropdownListContainer>
+    </>
   );
 };
 

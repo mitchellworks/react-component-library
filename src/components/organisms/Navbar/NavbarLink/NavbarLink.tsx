@@ -13,6 +13,7 @@ export interface NavbarLinkStyleProps {
   withChevron?: boolean;
   isDropdownLink?: boolean;
   isDropdownHeading?: boolean;
+  open?: boolean;
 }
 
 export interface NavbarLinkProps extends NavbarLinkStyleProps, React.AnchorHTMLAttributes<HTMLAnchorElement> {
@@ -32,20 +33,25 @@ export const navbarLinkStyles = css<StyledNavbarLinkProps>`
   text-decoration: none;
   font-weight: ${typography.weights.semiBold};
   color: ${colors.actionPlain};
-
+  border-radius: 8px;
+  margin-left: 4px; //TODO: breathing space on dropdown heading hover and open overlay?
   display: inline-flex;
   padding: ${spacing[3]} ${spacing[4]} ${spacing[4]};
-
+  ${({ open }: StyledNavbarLinkProps) =>
+    open
+      ? `background-color: ${colors.actionLight}; 
+    box-shadow: none;
+    `
+      : `background-color: inherit`}
   &:focus {
-    outline: none;
-    box-shadow: 0px 0px 4px 0px ${colors.actionPlain};
-    border-radius: 4px;
+    /* border-radius: 8px; */
   }
 
-  &:active,
   &:hover {
-    color: ${colors.actionDark};
-    opacity: ${({ active }) => (active ? 1 : 0.88)};
+    /* outline: none; */
+    box-shadow: 0px 0px 4px 0px ${colors.actionPlain};
+    border-radius: 8px; 
+    /* background-color: ${colors.actionLight}; */
   }
 
 
@@ -68,14 +74,13 @@ export const navbarLinkStyles = css<StyledNavbarLinkProps>`
       !isDropdownHeading &&
       css`
         padding: ${spacing[3]} ${spacing[2]};
-        width: calc(100% - 16px);
+        // width: calc(100% - 16px);
         margin-left: 8px;
         margin-right: 8px;
-
         border-radius: 8px;
-
         &:hover {
           background-color: ${colors.actionLight};
+          box-shadow: none;
         }
       `}
   `}
@@ -84,7 +89,7 @@ export const navbarLinkStyles = css<StyledNavbarLinkProps>`
     isDropdownHeading &&
     css`
       margin-top: ${spacing[2]};
-      width: 100%;
+      /* width: 100%; */
 
       color: ${colors.greyDarkest};
       text-transform: uppercase;
@@ -95,7 +100,6 @@ export const navbarLinkStyles = css<StyledNavbarLinkProps>`
       border-radius: 0px;
       outline: none;
       pointer-events: none;
-
       &:hover {
         cursor: default;
       }
@@ -146,6 +150,7 @@ const NavbarLink: FC<NavbarLinkProps> = React.forwardRef<HTMLAnchorElement, Navb
         ref={ref}
         data-automation="ZA.navbar-item"
         {...rest}
+        open={open}
       >
         {withChevron ? <LinkContainer>{children}</LinkContainer> : children}
         {withChevron && (

@@ -9,7 +9,6 @@ const NavbarDropdownList = styled.ul<NavbarDropdownListContainer>`
   z-index: 1;
   margin: ${spacing[3]} 0 ${spacing[3]};
   padding: 0;
-
   list-style-type: none;
   border-bottom: 1px solid ${colors.greyLighter};
 
@@ -18,28 +17,17 @@ const NavbarDropdownList = styled.ul<NavbarDropdownListContainer>`
       background-color: ${colors.white};
       box-shadow: 0px 1px 0px 1px ${colors.greyLight};
       border: 1px solid ${colors.greyLighter};
-      border-radius: 12px;
-
-      min-width: 240px;
+      border-top: 0;
+      border-radius: 0px 0px 10px 10px;
+      min-width: 70vw;
+      height: 338px;
       margin: 0;
-      padding: ${spacing[2]} 0;
-
-      &:before {
-        content: '';
-        top: 1px;
-        left: 50%;
-        position: absolute;
-        width: 25px;
-        height: 25px;
-        transform: translate(-50%, -50%) rotate(135deg);
-        background-color: inherit;
-        box-shadow: -1px 1px 0 0 ${colors.greyLighter};
-      }
+      padding: 48px 64px;
     `}
 
     position: absolute;
     left: 50%;
-    top: 50px;
+    top: 85px; //TODO: doesn't work in styleguidist properly between 1280px and 1500px width
 
     ${({ open }: NavbarDropdownListContainer) => css`
       ${

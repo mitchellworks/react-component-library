@@ -225,8 +225,23 @@ const NAV_ITEMS = [
     children: [
       {
         label: 'Loans',
+        isDropdownHeading: true,
         href: '/loans',
         'data-automation': 'loans.Borrow.topBar.Menu',
+      },
+      {
+        label: 'Personal loans',
+        href: '/loans',
+        'data-automation': 'loans.Borrow.topBar.Menu',
+      },
+      {
+        label: 'Credit Cards',
+        isDropdownHeading: true,
+      },
+      {
+        label: 'Zopa Credit Card',
+        href: '/loans/credit-card',
+        'data-automation': 'Credit_Card.Borrow.topBar.Menu',
       },
       {
         label: 'Car finance',
@@ -234,6 +249,11 @@ const NAV_ITEMS = [
       },
       {
         label: 'Car loans',
+        href: '/loans/car-loans',
+        'data-automation': 'Car_loan.Borrow.topBar.Menu',
+      },
+      {
+        label: 'Car hire purchase',
         href: '/loans/car-loans',
         'data-automation': 'Car_loan.Borrow.topBar.Menu',
       },
@@ -263,6 +283,11 @@ const NAV_ITEMS = [
         'data-automation': 'Innovative.Invest.topBar.Menu',
       },
     ],
+  },
+  {
+    label: 'Save',
+    href: '/save',
+    'data-automation': 'Save.topBar.Menu',
   },
   {
     label: 'About',
@@ -306,9 +331,9 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: 'Support',
+    label: 'Help',
     href: '/contact',
-    'data-automation': 'Support.topBar.Menu',
+    'data-automation': 'Help.topBar.Menu',
   },
 ];
 

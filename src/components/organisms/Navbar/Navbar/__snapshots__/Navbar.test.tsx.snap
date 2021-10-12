@@ -47,51 +47,19 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   text-decoration: none;
   font-weight: 600;
   color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 12px 16px 16px;
+  background-color: inherit;
 }
 
-.c8:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c8:active,
 .c8:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c12:focus {
-  outline: none;
   box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c12:active,
-.c12:hover {
-  color: #21247F;
-  opacity: 0.88;
+  border-radius: 8px;
 }
 
 .c13 {
@@ -103,13 +71,39 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   text-decoration: none;
   font-weight: 600;
   color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c13:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
   margin-top: 8px;
-  width: 100%;
   color: #2C3236;
   text-transform: uppercase;
   font-weight: 400;
@@ -120,23 +114,16 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   pointer-events: none;
 }
 
-.c13:focus {
-  outline: none;
+.c14:hover {
   box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
-.c13:active,
-.c13:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13:hover {
+.c14:hover {
   cursor: default;
 }
 
-.c15 {
+.c16 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -145,23 +132,19 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   text-decoration: none;
   font-weight: 600;
   color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
   padding: 12px 16px 16px;
+  background-color: inherit;
 }
 
-.c15:focus {
-  outline: none;
+.c16:hover {
   box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c15:active,
-.c15:hover {
-  color: #21247F;
-  opacity: 0.88;
+  border-radius: 8px;
 }
 
 .c9 {
@@ -176,7 +159,7 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   display: none;
 }
 
-.c17 {
+.c18 {
   -webkit-text-decoration: none;
   text-decoration: none;
   box-sizing: border-box;
@@ -205,22 +188,22 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   background: transparent;
 }
 
-.c17:focus:not(:active) {
+.c18:focus:not(:active) {
   border: 1px solid #FFFFFF;
   box-shadow: 0 0 4px #3B46C4;
 }
 
-.c17:hover {
+.c18:hover {
   background: #EAEBFA;
 }
 
-.c17:active {
+.c18:active {
   border: 1px solid transparent;
   box-shadow: unset;
   opacity: 0.8;
 }
 
-.c22 {
+.c23 {
   -webkit-text-decoration: none;
   text-decoration: none;
   box-sizing: border-box;
@@ -250,931 +233,26 @@ exports[`<Navbar /> should render component with all the props and no a11y viola
   background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
 }
 
-.c22:focus:not(:active) {
+.c23:focus:not(:active) {
   border: 1px solid #FFFFFF;
   box-shadow: 0 0 4px #3B46C4;
 }
 
-.c22:hover {
+.c23:hover {
   background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
 }
 
-.c22:active {
+.c23:active {
   border: 1px solid transparent;
   box-shadow: unset;
   opacity: 0.8;
-}
-
-.c20 {
-  display: block;
-}
-
-.c11 {
-  position: relative;
-  z-index: 1;
-  margin: 12px 0 12px;
-  padding: 0;
-  list-style-type: none;
-  border-bottom: 1px solid #EFEFEF;
-}
-
-.c6 {
-  position: relative;
-  display: inline-block;
-}
-
-.c14 {
-  display: inline-block;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-}
-
-.c14:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.c0 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.c0 .headroom {
-  z-index: 1;
-  background-color: #00D9C5;
-  -webkit-transition: -webkit-transform 200ms ease-in-out;
-  -webkit-transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out;
-}
-
-.c0 .headroom--unfixed {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.c0 .headroom--unpinned {
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-
-.c0 .headroom--pinned {
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-}
-
-.c24 {
-  height: 64px;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
-  box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
-}
-
-.c3 {
-  position: relative;
-}
-
-.c3 > a,
-.c3 > button,
-.c3 > div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.c23 {
-  background: transparent;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 64px;
-  width: 64px;
-  font-size: 24px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 0;
-  background: transparent;
-}
-
-.c23:hover:not(:disabled) {
-  background: transparent;
-}
-
-.c1 {
-  display: none;
 }
 
 .c21 {
   display: block;
 }
 
-.c16 {
-  list-style: none;
-  display: inline;
-}
-
-@media (max-width:1279px) {
-  .c8 {
-    width: 100%;
-    color: #2C3236;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-}
-
-@media (max-width:1279px) {
-  .c12 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c12 {
-    padding: 12px 8px;
-    width: calc(100% - 16px);
-    margin-left: 8px;
-    margin-right: 8px;
-    border-radius: 8px;
-  }
-
-  .c12:hover {
-    background-color: #E9EAFA;
-  }
-}
-
-@media (max-width:1279px) {
-  .c13 {
-    width: 100%;
-  }
-}
-
-@media (max-width:1279px) {
-  .c15 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c10 {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 12px;
-    -webkit-transition: -webkit-transform 0.3s;
-    -webkit-transition: transform 0.3s;
-    transition: transform 0.3s;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
-
-@media (max-width:1279px) {
-  .c18:hover:not(:disabled) {
-    background: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c18 {
-    margin-left: 8px;
-  }
-}
-
-@media (max-width:1279px) {
-  .c19 {
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    -webkit-clip: rect(1px,1px,1px,1px);
-    clip: rect(1px,1px,1px,1px);
-  }
-}
-
-@media (min-width:1280px) {
-  .c20 {
-    display: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c11 {
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 0px 1px #D4D7D9;
-    border: 1px solid #EFEFEF;
-    border-radius: 12px;
-    min-width: 240px;
-    margin: 0;
-    padding: 8px 0;
-    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
-    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
-    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate(-50%,-10%);
-    -ms-transform: translate(-50%,-10%);
-    transform: translate(-50%,-10%);
-  }
-
-  .c11:before {
-    content: '';
-    top: 1px;
-    left: 50%;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    -webkit-transform: translate(-50%,-50%) rotate(135deg);
-    -ms-transform: translate(-50%,-50%) rotate(135deg);
-    transform: translate(-50%,-50%) rotate(135deg);
-    background-color: inherit;
-    box-shadow: -1px 1px 0 0 #EFEFEF;
-  }
-}
-
-@media (min-width:1280px) {
-  .c14 {
-    border-bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-}
-
-@media (min-width:1280px) {
-  .c0 {
-    z-index: 1;
-    background-color: #FFFFFF;
-    max-height: 120px;
-    -webkit-transition: max-height 0.3s ease;
-    transition: max-height 0.3s ease;
-  }
-}
-
-@media (min-width:1280px) {
-  .c0 .headroom {
-    background-color: #FFFFFF;
-  }
-}
-
-@media (min-width:1280px) {
-  .c24 {
-    height: 120px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c2 {
-    box-shadow: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c3 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 490px;
-    -webkit-transition: 0.3s min-height ease;
-    transition: 0.3s min-height ease;
-    min-height: 120px;
-    padding-left: 64px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c3:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
-    background-image: url(nav-curve.svg);
-    background-repeat: no-repeat;
-    opacity: 1;
-    content: '';
-    z-index: -1;
-  }
-}
-
-@media (min-width:1280px) {
-  .c5 {
-    margin-right: 64px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c1 {
-    display: block;
-  }
-}
-
-@media (min-width:1280px) {
-  .c21 {
-    display: none;
-  }
-}
-
-<div>
-  <header
-    class="c0"
-  >
-    <div
-      class="headroom-wrapper"
-      style="max-height: 120px;"
-    >
-      <div
-        class="headroom headroom--unfixed"
-      >
-        <div
-          class="c1"
-        >
-          <nav
-            class="c2"
-            data-automation="ZA.navbar-desktop"
-          >
-            <div
-              class="c3"
-              role="banner"
-            >
-              <svg
-                aria-label="zopa logo"
-                height="100%"
-                role="img"
-                version="1.1"
-                viewBox="0 0 208 38"
-                width="150px"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <title>
-                  Zopa Logo
-                </title>
-                <g>
-                  <path
-                    class="c4"
-                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
-                  />
-                </g>
-              </svg>
-              <a
-                href="https://www.zopa.com"
-              />
-            </div>
-            <ul
-              class="c5"
-            >
-              <li
-                class="c6"
-              >
-                <a
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c7 c8"
-                  color="#3B46C4"
-                  data-automation="ZA.navbar-item"
-                  href="#"
-                  tabindex="0"
-                >
-                  <span
-                    class="c9"
-                  >
-                    About
-                  </span>
-                  <span
-                    class="c10"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="svg-inline--fa fa-chevron-down fa-w-14 "
-                      color="#818F9B"
-                      data-icon="chevron-down"
-                      data-prefix="fas"
-                      focusable="false"
-                      height="12px"
-                      role="img"
-                      viewBox="0 0 448 512"
-                      width="12px"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </span>
-                </a>
-                <ul
-                  aria-label="About"
-                  class="c11"
-                >
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about"
-                      tabindex="-1"
-                    >
-                      About Zopa
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/our-story"
-                      tabindex="-1"
-                    >
-                      Our story
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/board"
-                      tabindex="-1"
-                    >
-                      Our board
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c13"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      tabindex="-1"
-                    >
-                      Subheading
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/leadership"
-                      tabindex="-1"
-                    >
-                      Our leadership team
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/awards"
-                      tabindex="-1"
-                    >
-                      Awards
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/careers"
-                      tabindex="-1"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/press"
-                      tabindex="-1"
-                    >
-                      Press office
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                class="c14"
-              >
-                <a
-                  class="c7 c15"
-                  color="#3B46C4"
-                  data-automation="ZA.navbar-item"
-                  href="/contact"
-                >
-                  Support
-                </a>
-              </li>
-              <li
-                class="c16"
-              >
-                <button
-                  class="c17 c18"
-                  styling="link"
-                >
-                  <div
-                    class="c19"
-                  >
-                    Sign in
-                  </div>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
-                    color="#FFFFFF"
-                    data-icon="user"
-                    data-prefix="fas"
-                    focusable="false"
-                    height="20px"
-                    role="img"
-                    viewBox="0 0 448 512"
-                    width="20px"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div
-          class="c21"
-        >
-          <nav
-            class="c2"
-            data-automation="ZA.navbar-mobile"
-          >
-            <button
-              aria-label="Navigation"
-              class="c22 c23"
-              data-automation="hamburger-icon"
-              styling="primary"
-            >
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-bars fa-w-14 fa-1x "
-                color="#FFFFFF"
-                data-icon="bars"
-                data-prefix="fas"
-                focusable="false"
-                height="20px"
-                role="img"
-                viewBox="0 0 448 512"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-            <div
-              class="c3"
-            >
-              <svg
-                aria-label="zopa logo"
-                color="#00D9C5"
-                height="20px"
-                role="img"
-                version="1.1"
-                viewBox="0 0 208 38"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <title>
-                  Zopa Logo
-                </title>
-                <g>
-                  <path
-                    class="c4"
-                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
-                  />
-                </g>
-              </svg>
-              <a
-                href="https://www.zopa.com"
-              />
-            </div>
-            <button
-              class="c17 c18"
-              styling="link"
-            >
-              <div
-                class="c19"
-              >
-                Sign in
-              </div>
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
-                color="#FFFFFF"
-                data-icon="user"
-                data-prefix="fas"
-                focusable="false"
-                height="20px"
-                role="img"
-                viewBox="0 0 448 512"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div
-    class="c24"
-  />
-</div>
-`;
-
-exports[`<Navbar /> should render large device navigation with default props and no a11y violations 1`] = `
-.c4 {
-  -webkit-transition: fill 0.3s ease;
-  transition: fill 0.3s ease;
-  fill: #FFFFFF;
-}
-
-.c7 {
-  background-color: transparent;
-  font-size: inherit;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: 600;
-  line-height: inherit;
-  color: #3B46C4;
-  cursor: pointer;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  -webkit-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  user-select: auto;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding: 0;
-  border: none;
-}
-
-.c7:hover,
-.c7:active {
-  color: #21247F;
-}
-
-.c7:hover svg path,
-.c7:active svg path {
-  fill: #21247F;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c8:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c8:active,
-.c8:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
 .c12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c12:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c12:active,
-.c12:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-  margin-top: 8px;
-  width: 100%;
-  color: #2C3236;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
-  border-top: 1px solid #D4D7D9;
-  border-radius: 0px;
-  outline: none;
-  pointer-events: none;
-}
-
-.c13:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c13:active,
-.c13:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13:hover {
-  cursor: default;
-}
-
-.c15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c15:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c15:active,
-.c15:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c9 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-right: 8px;
-}
-
-.c10 {
-  display: none;
-}
-
-.c17 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 12px 24px;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 8px;
-  color: #FFFFFF;
-  border: 1px solid transparent;
-  outline: 0;
-  background-color: #3B46C4;
-  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
-}
-
-.c17:focus:not(:active) {
-  border: 1px solid #FFFFFF;
-  box-shadow: 0 0 4px #3B46C4;
-}
-
-.c17:hover {
-  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
-}
-
-.c17:active {
-  border: 1px solid transparent;
-  box-shadow: unset;
-  opacity: 0.8;
-}
-
-.c20 {
-  display: block;
-}
-
-.c11 {
   position: relative;
   z-index: 1;
   margin: 12px 0 12px;
@@ -1188,1862 +266,19 @@ exports[`<Navbar /> should render large device navigation with default props and
   display: inline-block;
 }
 
-.c14 {
+.c11 {
+  list-style-type: none;
   display: inline-block;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-}
-
-.c14:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.c0 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.c0 .headroom {
-  z-index: 1;
-  background-color: #00D9C5;
-  -webkit-transition: -webkit-transform 200ms ease-in-out;
-  -webkit-transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out;
-}
-
-.c0 .headroom--unfixed {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.c0 .headroom--unpinned {
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-
-.c0 .headroom--pinned {
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-}
-
-.c23 {
-  height: 64px;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
-  box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
-}
-
-.c3 {
-  position: relative;
-}
-
-.c3 > a,
-.c3 > button,
-.c3 > div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.c22 {
-  background: transparent;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 64px;
-  width: 64px;
-  font-size: 24px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 0;
-  background: transparent;
-}
-
-.c22:hover:not(:disabled) {
-  background: transparent;
-}
-
-.c1 {
-  display: none;
-}
-
-.c21 {
-  display: block;
-}
-
-.c16 {
-  list-style: none;
-  display: inline;
-}
-
-@media (max-width:1279px) {
-  .c8 {
-    width: 100%;
-    color: #2C3236;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-}
-
-@media (max-width:1279px) {
-  .c12 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c12 {
-    padding: 12px 8px;
-    width: calc(100% - 16px);
-    margin-left: 8px;
-    margin-right: 8px;
-    border-radius: 8px;
-  }
-
-  .c12:hover {
-    background-color: #E9EAFA;
-  }
-}
-
-@media (max-width:1279px) {
-  .c13 {
-    width: 100%;
-  }
-}
-
-@media (max-width:1279px) {
-  .c15 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c10 {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 12px;
-    -webkit-transition: -webkit-transform 0.3s;
-    -webkit-transition: transform 0.3s;
-    transition: transform 0.3s;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
-
-@media (max-width:1279px) {
-  .c18:hover:not(:disabled) {
-    background: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c18 {
-    margin-left: 8px;
-  }
-}
-
-@media (max-width:1279px) {
-  .c19 {
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    -webkit-clip: rect(1px,1px,1px,1px);
-    clip: rect(1px,1px,1px,1px);
-  }
-}
-
-@media (min-width:1280px) {
-  .c20 {
-    display: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c11 {
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 0px 1px #D4D7D9;
-    border: 1px solid #EFEFEF;
-    border-radius: 12px;
-    min-width: 240px;
-    margin: 0;
-    padding: 8px 0;
-    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
-    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
-    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate(-50%,-10%);
-    -ms-transform: translate(-50%,-10%);
-    transform: translate(-50%,-10%);
-  }
-
-  .c11:before {
-    content: '';
-    top: 1px;
-    left: 50%;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    -webkit-transform: translate(-50%,-50%) rotate(135deg);
-    -ms-transform: translate(-50%,-50%) rotate(135deg);
-    transform: translate(-50%,-50%) rotate(135deg);
-    background-color: inherit;
-    box-shadow: -1px 1px 0 0 #EFEFEF;
-  }
-}
-
-@media (min-width:1280px) {
-  .c14 {
-    border-bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-}
-
-@media (min-width:1280px) {
-  .c0 {
-    z-index: 1;
-    background-color: #FFFFFF;
-    max-height: 120px;
-    -webkit-transition: max-height 0.3s ease;
-    transition: max-height 0.3s ease;
-  }
-}
-
-@media (min-width:1280px) {
-  .c0 .headroom {
-    background-color: #FFFFFF;
-  }
-}
-
-@media (min-width:1280px) {
-  .c23 {
-    height: 120px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c2 {
-    box-shadow: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c3 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 490px;
-    -webkit-transition: 0.3s min-height ease;
-    transition: 0.3s min-height ease;
-    min-height: 120px;
-    padding-left: 64px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c3:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
-    background-image: url(nav-curve.svg);
-    background-repeat: no-repeat;
-    opacity: 1;
-    content: '';
-    z-index: -1;
-  }
-}
-
-@media (min-width:1280px) {
-  .c5 {
-    margin-right: 64px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c1 {
-    display: block;
-  }
-}
-
-@media (min-width:1280px) {
-  .c21 {
-    display: none;
-  }
-}
-
-<div>
-  <header
-    class="c0"
-  >
-    <div
-      class="headroom-wrapper"
-      style="max-height: 120px;"
-    >
-      <div
-        class="headroom headroom--unfixed"
-      >
-        <div
-          class="c1"
-        >
-          <nav
-            class="c2"
-            data-automation="ZA.navbar-desktop"
-          >
-            <div
-              class="c3"
-              role="banner"
-            >
-              <svg
-                aria-label="zopa logo"
-                height="100%"
-                role="img"
-                version="1.1"
-                viewBox="0 0 208 38"
-                width="150px"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <title>
-                  Zopa Logo
-                </title>
-                <g>
-                  <path
-                    class="c4"
-                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
-                  />
-                </g>
-              </svg>
-            </div>
-            <ul
-              class="c5"
-            >
-              <li
-                class="c6"
-              >
-                <a
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c7 c8"
-                  color="#3B46C4"
-                  data-automation="ZA.navbar-item"
-                  href="#"
-                  tabindex="0"
-                >
-                  <span
-                    class="c9"
-                  >
-                    About
-                  </span>
-                  <span
-                    class="c10"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="svg-inline--fa fa-chevron-down fa-w-14 "
-                      color="#818F9B"
-                      data-icon="chevron-down"
-                      data-prefix="fas"
-                      focusable="false"
-                      height="12px"
-                      role="img"
-                      viewBox="0 0 448 512"
-                      width="12px"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </span>
-                </a>
-                <ul
-                  aria-label="About"
-                  class="c11"
-                >
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about"
-                      tabindex="-1"
-                    >
-                      About Zopa
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/our-story"
-                      tabindex="-1"
-                    >
-                      Our story
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/board"
-                      tabindex="-1"
-                    >
-                      Our board
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c13"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      tabindex="-1"
-                    >
-                      Subheading
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/leadership"
-                      tabindex="-1"
-                    >
-                      Our leadership team
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/awards"
-                      tabindex="-1"
-                    >
-                      Awards
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/careers"
-                      tabindex="-1"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/press"
-                      tabindex="-1"
-                    >
-                      Press office
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                class="c14"
-              >
-                <a
-                  class="c7 c15"
-                  color="#3B46C4"
-                  data-automation="ZA.navbar-item"
-                  href="/contact"
-                >
-                  Support
-                </a>
-              </li>
-              <li
-                class="c16"
-              >
-                <button
-                  class="c17 c18"
-                  styling="primary"
-                >
-                  <div
-                    class="c19"
-                  >
-                    Sign in
-                  </div>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
-                    color="#FFFFFF"
-                    data-icon="user"
-                    data-prefix="fas"
-                    focusable="false"
-                    height="20px"
-                    role="img"
-                    viewBox="0 0 448 512"
-                    width="20px"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div
-          class="c21"
-        >
-          <nav
-            class="c2"
-            data-automation="ZA.navbar-mobile"
-          >
-            <button
-              aria-label="Navigation"
-              class="c17 c22"
-              data-automation="hamburger-icon"
-              styling="primary"
-            >
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-bars fa-w-14 fa-1x "
-                color="#FFFFFF"
-                data-icon="bars"
-                data-prefix="fas"
-                focusable="false"
-                height="20px"
-                role="img"
-                viewBox="0 0 448 512"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-            <div
-              class="c3"
-            >
-              <svg
-                aria-label="zopa logo"
-                color="#00D9C5"
-                height="20px"
-                role="img"
-                version="1.1"
-                viewBox="0 0 208 38"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <title>
-                  Zopa Logo
-                </title>
-                <g>
-                  <path
-                    class="c4"
-                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
-                  />
-                </g>
-              </svg>
-            </div>
-            <button
-              class="c17 c18"
-              styling="primary"
-            >
-              <div
-                class="c19"
-              >
-                Sign in
-              </div>
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
-                color="#FFFFFF"
-                data-icon="user"
-                data-prefix="fas"
-                focusable="false"
-                height="20px"
-                role="img"
-                viewBox="0 0 448 512"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div
-    class="c23"
-  />
-</div>
-`;
-
-exports[`<Navbar /> should render small device navigation with default props with no a11y violations 1`] = `
-.c4 {
-  -webkit-transition: fill 0.3s ease;
-  transition: fill 0.3s ease;
-  fill: #FFFFFF;
-}
-
-.c7 {
-  background-color: transparent;
-  font-size: inherit;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: 600;
-  line-height: inherit;
-  color: #3B46C4;
-  cursor: pointer;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  -webkit-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  user-select: auto;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding: 0;
-  border: none;
-}
-
-.c7:hover,
-.c7:active {
-  color: #21247F;
-}
-
-.c7:hover svg path,
-.c7:active svg path {
-  fill: #21247F;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c8:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c8:active,
-.c8:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c12:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c12:active,
-.c12:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-  margin-top: 8px;
-  width: 100%;
-  color: #2C3236;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
-  border-top: 1px solid #D4D7D9;
-  border-radius: 0px;
-  outline: none;
-  pointer-events: none;
-}
-
-.c13:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c13:active,
-.c13:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13:hover {
-  cursor: default;
 }
 
 .c15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c15:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c15:active,
-.c15:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c9 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-right: 8px;
-}
-
-.c10 {
-  display: none;
-}
-
-.c17 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 12px 24px;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 8px;
-  color: #21247F;
-  border: 1px solid transparent;
-  outline: 0;
-  background: transparent;
-}
-
-.c17:focus:not(:active) {
-  border: 1px solid #FFFFFF;
-  box-shadow: 0 0 4px #3B46C4;
-}
-
-.c17:hover {
-  background: #EAEBFA;
-}
-
-.c17:active {
-  border: 1px solid transparent;
-  box-shadow: unset;
-  opacity: 0.8;
-}
-
-.c22 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 12px 24px;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 8px;
-  color: #FFFFFF;
-  border: 1px solid transparent;
-  outline: 0;
-  background-color: #3B46C4;
-  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
-}
-
-.c22:focus:not(:active) {
-  border: 1px solid #FFFFFF;
-  box-shadow: 0 0 4px #3B46C4;
-}
-
-.c22:hover {
-  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
-}
-
-.c22:active {
-  border: 1px solid transparent;
-  box-shadow: unset;
-  opacity: 0.8;
-}
-
-.c20 {
-  display: block;
-}
-
-.c11 {
-  position: relative;
-  z-index: 1;
-  margin: 12px 0 12px;
-  padding: 0;
-  list-style-type: none;
-  border-bottom: 1px solid #EFEFEF;
-}
-
-.c6 {
-  position: relative;
-  display: inline-block;
-}
-
-.c14 {
   display: inline-block;
   border-bottom: 1px solid #EFEFEF;
   margin-bottom: 12px;
   padding-bottom: 8px;
 }
 
-.c14:last-child {
-  border-bottom: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.c0 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-}
-
-.c0 .headroom {
-  z-index: 1;
-  background-color: #00D9C5;
-  -webkit-transition: -webkit-transform 200ms ease-in-out;
-  -webkit-transition: transform 200ms ease-in-out;
-  transition: transform 200ms ease-in-out;
-}
-
-.c0 .headroom--unfixed {
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.c0 .headroom--unpinned {
-  -webkit-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  transform: translateY(-100%);
-}
-
-.c0 .headroom--pinned {
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-}
-
-.c24 {
-  height: 64px;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: 100%;
-  width: 100%;
-  box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
-}
-
-.c3 {
-  position: relative;
-}
-
-.c3 > a,
-.c3 > button,
-.c3 > div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.c23 {
-  background: transparent;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 64px;
-  width: 64px;
-  font-size: 24px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  border-radius: 0;
-  background: transparent;
-}
-
-.c23:hover:not(:disabled) {
-  background: transparent;
-}
-
-.c1 {
-  display: none;
-}
-
-.c21 {
-  display: block;
-}
-
-.c16 {
-  list-style: none;
-  display: inline;
-}
-
-@media (max-width:1279px) {
-  .c8 {
-    width: 100%;
-    color: #2C3236;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-}
-
-@media (max-width:1279px) {
-  .c12 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c12 {
-    padding: 12px 8px;
-    width: calc(100% - 16px);
-    margin-left: 8px;
-    margin-right: 8px;
-    border-radius: 8px;
-  }
-
-  .c12:hover {
-    background-color: #E9EAFA;
-  }
-}
-
-@media (max-width:1279px) {
-  .c13 {
-    width: 100%;
-  }
-}
-
-@media (max-width:1279px) {
-  .c15 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c10 {
-    display: -webkit-inline-box;
-    display: -webkit-inline-flex;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    font-size: 12px;
-    -webkit-transition: -webkit-transform 0.3s;
-    -webkit-transition: transform 0.3s;
-    transition: transform 0.3s;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-}
-
-@media (max-width:1279px) {
-  .c18:hover:not(:disabled) {
-    background: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c18 {
-    margin-left: 8px;
-  }
-}
-
-@media (max-width:1279px) {
-  .c19 {
-    position: absolute;
-    height: 1px;
-    width: 1px;
-    overflow: hidden;
-    -webkit-clip: rect(1px,1px,1px,1px);
-    clip: rect(1px,1px,1px,1px);
-  }
-}
-
-@media (min-width:1280px) {
-  .c20 {
-    display: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c11 {
-    position: absolute;
-    left: 50%;
-    top: 50px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 1px 0px 1px #D4D7D9;
-    border: 1px solid #EFEFEF;
-    border-radius: 12px;
-    min-width: 240px;
-    margin: 0;
-    padding: 8px 0;
-    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
-    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
-    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate(-50%,-10%);
-    -ms-transform: translate(-50%,-10%);
-    transform: translate(-50%,-10%);
-  }
-
-  .c11:before {
-    content: '';
-    top: 1px;
-    left: 50%;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    -webkit-transform: translate(-50%,-50%) rotate(135deg);
-    -ms-transform: translate(-50%,-50%) rotate(135deg);
-    transform: translate(-50%,-50%) rotate(135deg);
-    background-color: inherit;
-    box-shadow: -1px 1px 0 0 #EFEFEF;
-  }
-}
-
-@media (min-width:1280px) {
-  .c14 {
-    border-bottom: 0;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-}
-
-@media (min-width:1280px) {
-  .c0 {
-    z-index: 1;
-    background-color: #FFFFFF;
-    max-height: 120px;
-    -webkit-transition: max-height 0.3s ease;
-    transition: max-height 0.3s ease;
-  }
-}
-
-@media (min-width:1280px) {
-  .c0 .headroom {
-    background-color: #FFFFFF;
-  }
-}
-
-@media (min-width:1280px) {
-  .c24 {
-    height: 120px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c2 {
-    box-shadow: none;
-  }
-}
-
-@media (min-width:1280px) {
-  .c3 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 490px;
-    -webkit-transition: 0.3s min-height ease;
-    transition: 0.3s min-height ease;
-    min-height: 120px;
-    padding-left: 64px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c3:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transition: opacity 0.3s ease;
-    transition: opacity 0.3s ease;
-    background-image: url(nav-curve.svg);
-    background-repeat: no-repeat;
-    opacity: 1;
-    content: '';
-    z-index: -1;
-  }
-}
-
-@media (min-width:1280px) {
-  .c5 {
-    margin-right: 64px;
-  }
-}
-
-@media (min-width:1280px) {
-  .c1 {
-    display: block;
-  }
-}
-
-@media (min-width:1280px) {
-  .c21 {
-    display: none;
-  }
-}
-
-<div>
-  <header
-    class="c0"
-  >
-    <div
-      class="headroom-wrapper"
-      style="max-height: 120px;"
-    >
-      <div
-        class="headroom headroom--unfixed"
-      >
-        <div
-          class="c1"
-        >
-          <nav
-            class="c2"
-            data-automation="ZA.navbar-desktop"
-          >
-            <div
-              class="c3"
-              role="banner"
-            >
-              <svg
-                aria-label="zopa logo"
-                height="100%"
-                role="img"
-                version="1.1"
-                viewBox="0 0 208 38"
-                width="150px"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <title>
-                  Zopa Logo
-                </title>
-                <g>
-                  <path
-                    class="c4"
-                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
-                  />
-                </g>
-              </svg>
-            </div>
-            <ul
-              class="c5"
-            >
-              <li
-                class="c6"
-              >
-                <a
-                  aria-expanded="false"
-                  aria-haspopup="true"
-                  class="c7 c8"
-                  color="#3B46C4"
-                  data-automation="ZA.navbar-item"
-                  href="#"
-                  tabindex="0"
-                >
-                  <span
-                    class="c9"
-                  >
-                    About
-                  </span>
-                  <span
-                    class="c10"
-                  >
-                    <svg
-                      aria-hidden="true"
-                      class="svg-inline--fa fa-chevron-down fa-w-14 "
-                      color="#818F9B"
-                      data-icon="chevron-down"
-                      data-prefix="fas"
-                      focusable="false"
-                      height="12px"
-                      role="img"
-                      viewBox="0 0 448 512"
-                      width="12px"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </span>
-                </a>
-                <ul
-                  aria-label="About"
-                  class="c11"
-                >
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about"
-                      tabindex="-1"
-                    >
-                      About Zopa
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/our-story"
-                      tabindex="-1"
-                    >
-                      Our story
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/board"
-                      tabindex="-1"
-                    >
-                      Our board
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c13"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      tabindex="-1"
-                    >
-                      Subheading
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/leadership"
-                      tabindex="-1"
-                    >
-                      Our leadership team
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/awards"
-                      tabindex="-1"
-                    >
-                      Awards
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/careers"
-                      tabindex="-1"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      class="c7 c12"
-                      color="#3B46C4"
-                      data-automation="ZA.navbar-item"
-                      href="/about/press"
-                      tabindex="-1"
-                    >
-                      Press office
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li
-                class="c14"
-              >
-                <a
-                  class="c7 c15"
-                  color="#3B46C4"
-                  data-automation="ZA.navbar-item"
-                  href="/contact"
-                >
-                  Support
-                </a>
-              </li>
-              <li
-                class="c16"
-              >
-                <button
-                  class="c17 c18"
-                  styling="link"
-                >
-                  <div
-                    class="c19"
-                  >
-                    Sign in
-                  </div>
-                  <svg
-                    aria-hidden="true"
-                    class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
-                    color="#FFFFFF"
-                    data-icon="user"
-                    data-prefix="fas"
-                    focusable="false"
-                    height="20px"
-                    role="img"
-                    viewBox="0 0 448 512"
-                    width="20px"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </button>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div
-          class="c21"
-        >
-          <nav
-            class="c2"
-            data-automation="ZA.navbar-mobile"
-          >
-            <button
-              aria-label="Navigation"
-              class="c22 c23"
-              data-automation="hamburger-icon"
-              styling="primary"
-            >
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-bars fa-w-14 fa-1x "
-                color="#FFFFFF"
-                data-icon="bars"
-                data-prefix="fas"
-                focusable="false"
-                height="20px"
-                role="img"
-                viewBox="0 0 448 512"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-            <div
-              class="c3"
-            >
-              <svg
-                aria-label="zopa logo"
-                color="#00D9C5"
-                height="20px"
-                role="img"
-                version="1.1"
-                viewBox="0 0 208 38"
-                width="100%"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <title>
-                  Zopa Logo
-                </title>
-                <g>
-                  <path
-                    class="c4"
-                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
-                  />
-                </g>
-              </svg>
-            </div>
-            <button
-              class="c17 c18"
-              styling="link"
-            >
-              <div
-                class="c19"
-              >
-                Sign in
-              </div>
-              <svg
-                aria-hidden="true"
-                class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
-                color="#FFFFFF"
-                data-icon="user"
-                data-prefix="fas"
-                focusable="false"
-                height="20px"
-                role="img"
-                viewBox="0 0 448 512"
-                width="20px"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
-                  fill="currentColor"
-                />
-              </svg>
-            </button>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <div
-    class="c24"
-  />
-</div>
-`;
-
-exports[`<Navbar /> should render the collapsed styled on large device navigation with default props and collapsed set to true 1`] = `
-.c24 {
-  -webkit-transition: fill 0.3s ease;
-  transition: fill 0.3s ease;
-  fill: #FFFFFF;
-}
-
-.c4 {
-  -webkit-transition: fill 0.3s ease;
-  transition: fill 0.3s ease;
-  fill: #00D9C5;
-}
-
-.c7 {
-  background-color: transparent;
-  font-size: inherit;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-weight: 600;
-  line-height: inherit;
-  color: #3B46C4;
-  cursor: pointer;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
-  -webkit-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  user-select: auto;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding: 0;
-  border: none;
-}
-
-.c7:hover,
-.c7:active {
-  color: #21247F;
-}
-
-.c7:hover svg path,
-.c7:active svg path {
-  fill: #21247F;
-}
-
-.c8 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c8:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c8:active,
-.c8:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c12 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c12:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c12:active,
-.c12:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-  margin-top: 8px;
-  width: 100%;
-  color: #2C3236;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
-  border-top: 1px solid #D4D7D9;
-  border-radius: 0px;
-  outline: none;
-  pointer-events: none;
-}
-
-.c13:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c13:active,
-.c13:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c13:hover {
-  cursor: default;
-}
-
-.c15 {
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  font-weight: 600;
-  color: #3B46C4;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  padding: 12px 16px 16px;
-}
-
-.c15:focus {
-  outline: none;
-  box-shadow: 0px 0px 4px 0px #3B46C4;
-  border-radius: 4px;
-}
-
-.c15:active,
-.c15:hover {
-  color: #21247F;
-  opacity: 0.88;
-}
-
-.c9 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-right: 8px;
-}
-
-.c10 {
-  display: none;
-}
-
-.c17 {
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding: 12px 24px;
-  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
-  cursor: pointer;
-  border-radius: 8px;
-  color: #FFFFFF;
-  border: 1px solid transparent;
-  outline: 0;
-  background-color: #3B46C4;
-  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
-}
-
-.c17:focus:not(:active) {
-  border: 1px solid #FFFFFF;
-  box-shadow: 0 0 4px #3B46C4;
-}
-
-.c17:hover {
-  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
-}
-
-.c17:active {
-  border: 1px solid transparent;
-  box-shadow: unset;
-  opacity: 0.8;
-}
-
-.c20 {
-  display: block;
-}
-
-.c11 {
-  position: relative;
-  z-index: 1;
-  margin: 12px 0 12px;
-  padding: 0;
-  list-style-type: none;
-  border-bottom: 1px solid #EFEFEF;
-}
-
-.c6 {
-  position: relative;
-  display: inline-block;
-}
-
-.c14 {
-  display: inline-block;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-}
-
-.c14:last-child {
+.c15:last-child {
   border-bottom: 0;
   margin-bottom: 0;
   padding-bottom: 0;
@@ -3105,20 +340,6 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
   box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
 }
 
-.c23 {
-  position: relative;
-}
-
-.c23 > a,
-.c23 > button,
-.c23 > div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .c3 {
   position: relative;
 }
@@ -3133,7 +354,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
   right: 0;
 }
 
-.c22 {
+.c24 {
   background: transparent;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3154,7 +375,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
   background: transparent;
 }
 
-.c22:hover:not(:disabled) {
+.c24:hover:not(:disabled) {
   background: transparent;
 }
 
@@ -3162,11 +383,11 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
   display: none;
 }
 
-.c21 {
+.c22 {
   display: block;
 }
 
-.c16 {
+.c17 {
   list-style: none;
   display: inline;
 }
@@ -3182,33 +403,33 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (max-width:1279px) {
-  .c12 {
-    width: 100%;
-  }
-}
-
-@media (min-width:1280px) {
-  .c12 {
-    padding: 12px 8px;
-    width: calc(100% - 16px);
-    margin-left: 8px;
-    margin-right: 8px;
-    border-radius: 8px;
-  }
-
-  .c12:hover {
-    background-color: #E9EAFA;
-  }
-}
-
-@media (max-width:1279px) {
   .c13 {
     width: 100%;
   }
 }
 
+@media (min-width:1280px) {
+  .c13 {
+    padding: 12px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+  }
+
+  .c13:hover {
+    background-color: #E9EAFA;
+    box-shadow: none;
+  }
+}
+
 @media (max-width:1279px) {
-  .c15 {
+  .c14 {
+    width: 100%;
+  }
+}
+
+@media (max-width:1279px) {
+  .c16 {
     width: 100%;
   }
 }
@@ -3234,19 +455,19 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (max-width:1279px) {
-  .c18:hover:not(:disabled) {
+  .c19:hover:not(:disabled) {
     background: none;
   }
 }
 
 @media (min-width:1280px) {
-  .c18 {
+  .c19 {
     margin-left: 8px;
   }
 }
 
 @media (max-width:1279px) {
-  .c19 {
+  .c20 {
     position: absolute;
     height: 1px;
     width: 1px;
@@ -3257,23 +478,25 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (min-width:1280px) {
-  .c20 {
+  .c21 {
     display: none;
   }
 }
 
 @media (min-width:1280px) {
-  .c11 {
+  .c12 {
     position: absolute;
     left: 50%;
-    top: 50px;
+    top: 85px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 0px 1px #D4D7D9;
     border: 1px solid #EFEFEF;
-    border-radius: 12px;
-    min-width: 240px;
+    border-top: 0;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 70vw;
+    height: 338px;
     margin: 0;
-    padding: 8px 0;
+    padding: 48px 64px;
     -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
     -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
     transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
@@ -3283,24 +506,2717 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
     -ms-transform: translate(-50%,-10%);
     transform: translate(-50%,-10%);
   }
+}
 
-  .c11:before {
-    content: '';
-    top: 1px;
-    left: 50%;
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    -webkit-transform: translate(-50%,-50%) rotate(135deg);
-    -ms-transform: translate(-50%,-50%) rotate(135deg);
-    transform: translate(-50%,-50%) rotate(135deg);
-    background-color: inherit;
-    box-shadow: -1px 1px 0 0 #EFEFEF;
+@media (min-width:1280px) {
+  .c15 {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
 @media (min-width:1280px) {
+  .c0 {
+    z-index: 1;
+    background-color: #FFFFFF;
+    max-height: 120px;
+    -webkit-transition: max-height 0.3s ease;
+    transition: max-height 0.3s ease;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 .headroom {
+    background-color: #FFFFFF;
+  }
+}
+
+@media (min-width:1280px) {
+  .c25 {
+    height: 120px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c2 {
+    box-shadow: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 490px;
+    -webkit-transition: 0.3s min-height ease;
+    transition: 0.3s min-height ease;
+    min-height: 120px;
+    padding-left: 64px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c3:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    background-image: url(nav-curve.svg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    content: '';
+    z-index: -1;
+  }
+}
+
+@media (min-width:1280px) {
+  .c5 {
+    margin-right: 64px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1 {
+    display: block;
+  }
+}
+
+@media (min-width:1280px) {
+  .c22 {
+    display: none;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <div
+      class="headroom-wrapper"
+      style="max-height: 120px;"
+    >
+      <div
+        class="headroom headroom--unfixed"
+      >
+        <div
+          class="c1"
+        >
+          <nav
+            class="c2"
+            data-automation="ZA.navbar-desktop"
+          >
+            <div
+              class="c3"
+              role="banner"
+            >
+              <svg
+                aria-label="zopa logo"
+                height="100%"
+                role="img"
+                version="1.1"
+                viewBox="0 0 208 38"
+                width="150px"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Zopa Logo
+                </title>
+                <g>
+                  <path
+                    class="c4"
+                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+                  />
+                </g>
+              </svg>
+              <a
+                href="https://www.zopa.com"
+              />
+            </div>
+            <ul
+              class="c5"
+            >
+              <li
+                class="c6"
+              >
+                <a
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c7 c8"
+                  color="#3B46C4"
+                  data-automation="ZA.navbar-item"
+                  href="#"
+                  tabindex="0"
+                >
+                  <span
+                    class="c9"
+                  >
+                    About
+                  </span>
+                  <span
+                    class="c10"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-down fa-w-14 "
+                      color="#818F9B"
+                      data-icon="chevron-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      height="12px"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      width="12px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="c11"
+              >
+                <ul
+                  aria-label="About"
+                  class="c12"
+                >
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about"
+                      tabindex="-1"
+                    >
+                      About Zopa
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/our-story"
+                      tabindex="-1"
+                    >
+                      Our story
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/board"
+                      tabindex="-1"
+                    >
+                      Our board
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c14"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      tabindex="-1"
+                    >
+                      Subheading
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/leadership"
+                      tabindex="-1"
+                    >
+                      Our leadership team
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/awards"
+                      tabindex="-1"
+                    >
+                      Awards
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/careers"
+                      tabindex="-1"
+                    >
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/press"
+                      tabindex="-1"
+                    >
+                      Press office
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="c15"
+              >
+                <a
+                  class="c7 c16"
+                  color="#3B46C4"
+                  data-automation="ZA.navbar-item"
+                  href="/contact"
+                >
+                  Support
+                </a>
+              </li>
+              <li
+                class="c17"
+              >
+                <button
+                  class="c18 c19"
+                  styling="link"
+                >
+                  <div
+                    class="c20"
+                  >
+                    Sign in
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
+                    color="#FFFFFF"
+                    data-icon="user"
+                    data-prefix="fas"
+                    focusable="false"
+                    height="20px"
+                    role="img"
+                    viewBox="0 0 448 512"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="c22"
+        >
+          <nav
+            class="c2"
+            data-automation="ZA.navbar-mobile"
+          >
+            <button
+              aria-label="Navigation"
+              class="c23 c24"
+              data-automation="hamburger-icon"
+              styling="primary"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bars fa-w-14 fa-1x "
+                color="#FFFFFF"
+                data-icon="bars"
+                data-prefix="fas"
+                focusable="false"
+                height="20px"
+                role="img"
+                viewBox="0 0 448 512"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <div
+              class="c3"
+            >
+              <svg
+                aria-label="zopa logo"
+                color="#00D9C5"
+                height="20px"
+                role="img"
+                version="1.1"
+                viewBox="0 0 208 38"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Zopa Logo
+                </title>
+                <g>
+                  <path
+                    class="c4"
+                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+                  />
+                </g>
+              </svg>
+              <a
+                href="https://www.zopa.com"
+              />
+            </div>
+            <button
+              class="c18 c19"
+              styling="link"
+            >
+              <div
+                class="c20"
+              >
+                Sign in
+              </div>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
+                color="#FFFFFF"
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                height="20px"
+                role="img"
+                viewBox="0 0 448 512"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="c25"
+  />
+</div>
+`;
+
+exports[`<Navbar /> should render large device navigation with default props and no a11y violations 1`] = `
+.c4 {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #FFFFFF;
+}
+
+.c7 {
+  background-color: transparent;
+  font-size: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+  color: #3B46C4;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+}
+
+.c7:hover,
+.c7:active {
+  color: #21247F;
+}
+
+.c7:hover svg path,
+.c7:active svg path {
+  fill: #21247F;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c8:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c13:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+  margin-top: 8px;
+  color: #2C3236;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  border-top: 1px solid #D4D7D9;
+  border-radius: 0px;
+  outline: none;
+  pointer-events: none;
+}
+
+.c14:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14:hover {
+  cursor: default;
+}
+
+.c16 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c16:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.c10 {
+  display: none;
+}
+
+.c18 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  outline: 0;
+  background-color: #3B46C4;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+}
+
+.c18:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c18:hover {
+  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
+}
+
+.c18:active {
+  border: 1px solid transparent;
+  box-shadow: unset;
+  opacity: 0.8;
+}
+
+.c21 {
+  display: block;
+}
+
+.c12 {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 12px;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.c6 {
+  position: relative;
+  display: inline-block;
+}
+
+.c11 {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.c15 {
+  display: inline-block;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+}
+
+.c15:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.c0 .headroom {
+  z-index: 1;
+  background-color: #00D9C5;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  -webkit-transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+}
+
+.c0 .headroom--unfixed {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.c0 .headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.c0 .headroom--pinned {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.c24 {
+  height: 64px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c3 > a,
+.c3 > button,
+.c3 > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c23 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  width: 64px;
+  font-size: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  background: transparent;
+}
+
+.c23:hover:not(:disabled) {
+  background: transparent;
+}
+
+.c1 {
+  display: none;
+}
+
+.c22 {
+  display: block;
+}
+
+.c17 {
+  list-style: none;
+  display: inline;
+}
+
+@media (max-width:1279px) {
+  .c8 {
+    width: 100%;
+    color: #2C3236;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width:1279px) {
+  .c13 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c13 {
+    padding: 12px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+  }
+
+  .c13:hover {
+    background-color: #E9EAFA;
+    box-shadow: none;
+  }
+}
+
+@media (max-width:1279px) {
   .c14 {
+    width: 100%;
+  }
+}
+
+@media (max-width:1279px) {
+  .c16 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c10 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    -webkit-transition: -webkit-transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width:1279px) {
+  .c19:hover:not(:disabled) {
+    background: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c19 {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c20 {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    -webkit-clip: rect(1px,1px,1px,1px);
+    clip: rect(1px,1px,1px,1px);
+  }
+}
+
+@media (min-width:1280px) {
+  .c21 {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c12 {
+    position: absolute;
+    left: 50%;
+    top: 85px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px 1px #D4D7D9;
+    border: 1px solid #EFEFEF;
+    border-top: 0;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 70vw;
+    height: 338px;
+    margin: 0;
+    padding: 48px 64px;
+    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
+    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%,-10%);
+    -ms-transform: translate(-50%,-10%);
+    transform: translate(-50%,-10%);
+  }
+}
+
+@media (min-width:1280px) {
+  .c15 {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    z-index: 1;
+    background-color: #FFFFFF;
+    max-height: 120px;
+    -webkit-transition: max-height 0.3s ease;
+    transition: max-height 0.3s ease;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 .headroom {
+    background-color: #FFFFFF;
+  }
+}
+
+@media (min-width:1280px) {
+  .c24 {
+    height: 120px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c2 {
+    box-shadow: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 490px;
+    -webkit-transition: 0.3s min-height ease;
+    transition: 0.3s min-height ease;
+    min-height: 120px;
+    padding-left: 64px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c3:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    background-image: url(nav-curve.svg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    content: '';
+    z-index: -1;
+  }
+}
+
+@media (min-width:1280px) {
+  .c5 {
+    margin-right: 64px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1 {
+    display: block;
+  }
+}
+
+@media (min-width:1280px) {
+  .c22 {
+    display: none;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <div
+      class="headroom-wrapper"
+      style="max-height: 120px;"
+    >
+      <div
+        class="headroom headroom--unfixed"
+      >
+        <div
+          class="c1"
+        >
+          <nav
+            class="c2"
+            data-automation="ZA.navbar-desktop"
+          >
+            <div
+              class="c3"
+              role="banner"
+            >
+              <svg
+                aria-label="zopa logo"
+                height="100%"
+                role="img"
+                version="1.1"
+                viewBox="0 0 208 38"
+                width="150px"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Zopa Logo
+                </title>
+                <g>
+                  <path
+                    class="c4"
+                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <ul
+              class="c5"
+            >
+              <li
+                class="c6"
+              >
+                <a
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c7 c8"
+                  color="#3B46C4"
+                  data-automation="ZA.navbar-item"
+                  href="#"
+                  tabindex="0"
+                >
+                  <span
+                    class="c9"
+                  >
+                    About
+                  </span>
+                  <span
+                    class="c10"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-down fa-w-14 "
+                      color="#818F9B"
+                      data-icon="chevron-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      height="12px"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      width="12px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="c11"
+              >
+                <ul
+                  aria-label="About"
+                  class="c12"
+                >
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about"
+                      tabindex="-1"
+                    >
+                      About Zopa
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/our-story"
+                      tabindex="-1"
+                    >
+                      Our story
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/board"
+                      tabindex="-1"
+                    >
+                      Our board
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c14"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      tabindex="-1"
+                    >
+                      Subheading
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/leadership"
+                      tabindex="-1"
+                    >
+                      Our leadership team
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/awards"
+                      tabindex="-1"
+                    >
+                      Awards
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/careers"
+                      tabindex="-1"
+                    >
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/press"
+                      tabindex="-1"
+                    >
+                      Press office
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="c15"
+              >
+                <a
+                  class="c7 c16"
+                  color="#3B46C4"
+                  data-automation="ZA.navbar-item"
+                  href="/contact"
+                >
+                  Support
+                </a>
+              </li>
+              <li
+                class="c17"
+              >
+                <button
+                  class="c18 c19"
+                  styling="primary"
+                >
+                  <div
+                    class="c20"
+                  >
+                    Sign in
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
+                    color="#FFFFFF"
+                    data-icon="user"
+                    data-prefix="fas"
+                    focusable="false"
+                    height="20px"
+                    role="img"
+                    viewBox="0 0 448 512"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="c22"
+        >
+          <nav
+            class="c2"
+            data-automation="ZA.navbar-mobile"
+          >
+            <button
+              aria-label="Navigation"
+              class="c18 c23"
+              data-automation="hamburger-icon"
+              styling="primary"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bars fa-w-14 fa-1x "
+                color="#FFFFFF"
+                data-icon="bars"
+                data-prefix="fas"
+                focusable="false"
+                height="20px"
+                role="img"
+                viewBox="0 0 448 512"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <div
+              class="c3"
+            >
+              <svg
+                aria-label="zopa logo"
+                color="#00D9C5"
+                height="20px"
+                role="img"
+                version="1.1"
+                viewBox="0 0 208 38"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Zopa Logo
+                </title>
+                <g>
+                  <path
+                    class="c4"
+                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <button
+              class="c18 c19"
+              styling="primary"
+            >
+              <div
+                class="c20"
+              >
+                Sign in
+              </div>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
+                color="#FFFFFF"
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                height="20px"
+                role="img"
+                viewBox="0 0 448 512"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="c24"
+  />
+</div>
+`;
+
+exports[`<Navbar /> should render small device navigation with default props with no a11y violations 1`] = `
+.c4 {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #FFFFFF;
+}
+
+.c7 {
+  background-color: transparent;
+  font-size: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+  color: #3B46C4;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+}
+
+.c7:hover,
+.c7:active {
+  color: #21247F;
+}
+
+.c7:hover svg path,
+.c7:active svg path {
+  fill: #21247F;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c8:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c13:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+  margin-top: 8px;
+  color: #2C3236;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  border-top: 1px solid #D4D7D9;
+  border-radius: 0px;
+  outline: none;
+  pointer-events: none;
+}
+
+.c14:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14:hover {
+  cursor: default;
+}
+
+.c16 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c16:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.c10 {
+  display: none;
+}
+
+.c18 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #21247F;
+  border: 1px solid transparent;
+  outline: 0;
+  background: transparent;
+}
+
+.c18:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c18:hover {
+  background: #EAEBFA;
+}
+
+.c18:active {
+  border: 1px solid transparent;
+  box-shadow: unset;
+  opacity: 0.8;
+}
+
+.c23 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  outline: 0;
+  background-color: #3B46C4;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+}
+
+.c23:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c23:hover {
+  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
+}
+
+.c23:active {
+  border: 1px solid transparent;
+  box-shadow: unset;
+  opacity: 0.8;
+}
+
+.c21 {
+  display: block;
+}
+
+.c12 {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 12px;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.c6 {
+  position: relative;
+  display: inline-block;
+}
+
+.c11 {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.c15 {
+  display: inline-block;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+}
+
+.c15:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.c0 .headroom {
+  z-index: 1;
+  background-color: #00D9C5;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  -webkit-transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+}
+
+.c0 .headroom--unfixed {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.c0 .headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.c0 .headroom--pinned {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.c25 {
+  height: 64px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c3 > a,
+.c3 > button,
+.c3 > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c24 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  width: 64px;
+  font-size: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  background: transparent;
+}
+
+.c24:hover:not(:disabled) {
+  background: transparent;
+}
+
+.c1 {
+  display: none;
+}
+
+.c22 {
+  display: block;
+}
+
+.c17 {
+  list-style: none;
+  display: inline;
+}
+
+@media (max-width:1279px) {
+  .c8 {
+    width: 100%;
+    color: #2C3236;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width:1279px) {
+  .c13 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c13 {
+    padding: 12px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+  }
+
+  .c13:hover {
+    background-color: #E9EAFA;
+    box-shadow: none;
+  }
+}
+
+@media (max-width:1279px) {
+  .c14 {
+    width: 100%;
+  }
+}
+
+@media (max-width:1279px) {
+  .c16 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c10 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    -webkit-transition: -webkit-transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width:1279px) {
+  .c19:hover:not(:disabled) {
+    background: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c19 {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c20 {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    -webkit-clip: rect(1px,1px,1px,1px);
+    clip: rect(1px,1px,1px,1px);
+  }
+}
+
+@media (min-width:1280px) {
+  .c21 {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c12 {
+    position: absolute;
+    left: 50%;
+    top: 85px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px 1px #D4D7D9;
+    border: 1px solid #EFEFEF;
+    border-top: 0;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 70vw;
+    height: 338px;
+    margin: 0;
+    padding: 48px 64px;
+    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
+    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%,-10%);
+    -ms-transform: translate(-50%,-10%);
+    transform: translate(-50%,-10%);
+  }
+}
+
+@media (min-width:1280px) {
+  .c15 {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 {
+    z-index: 1;
+    background-color: #FFFFFF;
+    max-height: 120px;
+    -webkit-transition: max-height 0.3s ease;
+    transition: max-height 0.3s ease;
+  }
+}
+
+@media (min-width:1280px) {
+  .c0 .headroom {
+    background-color: #FFFFFF;
+  }
+}
+
+@media (min-width:1280px) {
+  .c25 {
+    height: 120px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c2 {
+    box-shadow: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 490px;
+    -webkit-transition: 0.3s min-height ease;
+    transition: 0.3s min-height ease;
+    min-height: 120px;
+    padding-left: 64px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c3:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    background-image: url(nav-curve.svg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    content: '';
+    z-index: -1;
+  }
+}
+
+@media (min-width:1280px) {
+  .c5 {
+    margin-right: 64px;
+  }
+}
+
+@media (min-width:1280px) {
+  .c1 {
+    display: block;
+  }
+}
+
+@media (min-width:1280px) {
+  .c22 {
+    display: none;
+  }
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <div
+      class="headroom-wrapper"
+      style="max-height: 120px;"
+    >
+      <div
+        class="headroom headroom--unfixed"
+      >
+        <div
+          class="c1"
+        >
+          <nav
+            class="c2"
+            data-automation="ZA.navbar-desktop"
+          >
+            <div
+              class="c3"
+              role="banner"
+            >
+              <svg
+                aria-label="zopa logo"
+                height="100%"
+                role="img"
+                version="1.1"
+                viewBox="0 0 208 38"
+                width="150px"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Zopa Logo
+                </title>
+                <g>
+                  <path
+                    class="c4"
+                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <ul
+              class="c5"
+            >
+              <li
+                class="c6"
+              >
+                <a
+                  aria-expanded="false"
+                  aria-haspopup="true"
+                  class="c7 c8"
+                  color="#3B46C4"
+                  data-automation="ZA.navbar-item"
+                  href="#"
+                  tabindex="0"
+                >
+                  <span
+                    class="c9"
+                  >
+                    About
+                  </span>
+                  <span
+                    class="c10"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="svg-inline--fa fa-chevron-down fa-w-14 "
+                      color="#818F9B"
+                      data-icon="chevron-down"
+                      data-prefix="fas"
+                      focusable="false"
+                      height="12px"
+                      role="img"
+                      viewBox="0 0 448 512"
+                      width="12px"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li
+                class="c11"
+              >
+                <ul
+                  aria-label="About"
+                  class="c12"
+                >
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about"
+                      tabindex="-1"
+                    >
+                      About Zopa
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/our-story"
+                      tabindex="-1"
+                    >
+                      Our story
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/board"
+                      tabindex="-1"
+                    >
+                      Our board
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c14"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      tabindex="-1"
+                    >
+                      Subheading
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/leadership"
+                      tabindex="-1"
+                    >
+                      Our leadership team
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/awards"
+                      tabindex="-1"
+                    >
+                      Awards
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/careers"
+                      tabindex="-1"
+                    >
+                      Careers
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="c7 c13"
+                      color="#3B46C4"
+                      data-automation="ZA.navbar-item"
+                      href="/about/press"
+                      tabindex="-1"
+                    >
+                      Press office
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="c15"
+              >
+                <a
+                  class="c7 c16"
+                  color="#3B46C4"
+                  data-automation="ZA.navbar-item"
+                  href="/contact"
+                >
+                  Support
+                </a>
+              </li>
+              <li
+                class="c17"
+              >
+                <button
+                  class="c18 c19"
+                  styling="link"
+                >
+                  <div
+                    class="c20"
+                  >
+                    Sign in
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
+                    color="#FFFFFF"
+                    data-icon="user"
+                    data-prefix="fas"
+                    focusable="false"
+                    height="20px"
+                    role="img"
+                    viewBox="0 0 448 512"
+                    width="20px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div
+          class="c22"
+        >
+          <nav
+            class="c2"
+            data-automation="ZA.navbar-mobile"
+          >
+            <button
+              aria-label="Navigation"
+              class="c23 c24"
+              data-automation="hamburger-icon"
+              styling="primary"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-bars fa-w-14 fa-1x "
+                color="#FFFFFF"
+                data-icon="bars"
+                data-prefix="fas"
+                focusable="false"
+                height="20px"
+                role="img"
+                viewBox="0 0 448 512"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+            <div
+              class="c3"
+            >
+              <svg
+                aria-label="zopa logo"
+                color="#00D9C5"
+                height="20px"
+                role="img"
+                version="1.1"
+                viewBox="0 0 208 38"
+                width="100%"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>
+                  Zopa Logo
+                </title>
+                <g>
+                  <path
+                    class="c4"
+                    d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <button
+              class="c18 c19"
+              styling="link"
+            >
+              <div
+                class="c20"
+              >
+                Sign in
+              </div>
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
+                color="#FFFFFF"
+                data-icon="user"
+                data-prefix="fas"
+                focusable="false"
+                height="20px"
+                role="img"
+                viewBox="0 0 448 512"
+                width="20px"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                  fill="currentColor"
+                />
+              </svg>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div
+    class="c25"
+  />
+</div>
+`;
+
+exports[`<Navbar /> should render the collapsed styled on large device navigation with default props and collapsed set to true 1`] = `
+.c25 {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #FFFFFF;
+}
+
+.c4 {
+  -webkit-transition: fill 0.3s ease;
+  transition: fill 0.3s ease;
+  fill: #00D9C5;
+}
+
+.c7 {
+  background-color: transparent;
+  font-size: inherit;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  line-height: inherit;
+  color: #3B46C4;
+  cursor: pointer;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: none;
+}
+
+.c7:hover,
+.c7:active {
+  color: #21247F;
+}
+
+.c7:hover svg path,
+.c7:active svg path {
+  fill: #21247F;
+}
+
+.c8 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c8:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c13 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c13:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+  margin-top: 8px;
+  color: #2C3236;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  border-top: 1px solid #D4D7D9;
+  border-radius: 0px;
+  outline: none;
+  pointer-events: none;
+}
+
+.c14:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c14:hover {
+  cursor: default;
+}
+
+.c16 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: 600;
+  color: #3B46C4;
+  border-radius: 8px;
+  margin-left: 4px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 12px 16px 16px;
+  background-color: inherit;
+}
+
+.c16:hover {
+  box-shadow: 0px 0px 4px 0px #3B46C4;
+  border-radius: 8px;
+}
+
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 8px;
+}
+
+.c10 {
+  display: none;
+}
+
+.c18 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  outline: 0;
+  background-color: #3B46C4;
+  background: linear-gradient(90deg,#4F5AD8 0%,#3B46C4 100%);
+}
+
+.c18:focus:not(:active) {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 4px #3B46C4;
+}
+
+.c18:hover {
+  background: linear-gradient(90deg,#3B46C4 0%,#2732B0 100%);
+}
+
+.c18:active {
+  border: 1px solid transparent;
+  box-shadow: unset;
+  opacity: 0.8;
+}
+
+.c21 {
+  display: block;
+}
+
+.c12 {
+  position: relative;
+  z-index: 1;
+  margin: 12px 0 12px;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.c6 {
+  position: relative;
+  display: inline-block;
+}
+
+.c11 {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.c15 {
+  display: inline-block;
+  border-bottom: 1px solid #EFEFEF;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+}
+
+.c15:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.c0 .headroom {
+  z-index: 1;
+  background-color: #00D9C5;
+  -webkit-transition: -webkit-transform 200ms ease-in-out;
+  -webkit-transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+}
+
+.c0 .headroom--unfixed {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.c0 .headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.c0 .headroom--pinned {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+.c26 {
+  height: 64px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0,0,0,0.2) 0 1px 2px;
+}
+
+.c24 {
+  position: relative;
+}
+
+.c24 > a,
+.c24 > button,
+.c24 > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c3 {
+  position: relative;
+}
+
+.c3 > a,
+.c3 > button,
+.c3 > div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.c23 {
+  background: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 64px;
+  width: 64px;
+  font-size: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 0;
+  background: transparent;
+}
+
+.c23:hover:not(:disabled) {
+  background: transparent;
+}
+
+.c1 {
+  display: none;
+}
+
+.c22 {
+  display: block;
+}
+
+.c17 {
+  list-style: none;
+  display: inline;
+}
+
+@media (max-width:1279px) {
+  .c8 {
+    width: 100%;
+    color: #2C3236;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width:1279px) {
+  .c13 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c13 {
+    padding: 12px 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+  }
+
+  .c13:hover {
+    background-color: #E9EAFA;
+    box-shadow: none;
+  }
+}
+
+@media (max-width:1279px) {
+  .c14 {
+    width: 100%;
+  }
+}
+
+@media (max-width:1279px) {
+  .c16 {
+    width: 100%;
+  }
+}
+
+@media (min-width:1280px) {
+  .c10 {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    -webkit-transition: -webkit-transform 0.3s;
+    -webkit-transition: transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@media (max-width:1279px) {
+  .c19:hover:not(:disabled) {
+    background: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c19 {
+    margin-left: 8px;
+  }
+}
+
+@media (max-width:1279px) {
+  .c20 {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    -webkit-clip: rect(1px,1px,1px,1px);
+    clip: rect(1px,1px,1px,1px);
+  }
+}
+
+@media (min-width:1280px) {
+  .c21 {
+    display: none;
+  }
+}
+
+@media (min-width:1280px) {
+  .c12 {
+    position: absolute;
+    left: 50%;
+    top: 85px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 0px 1px #D4D7D9;
+    border: 1px solid #EFEFEF;
+    border-top: 0;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 70vw;
+    height: 338px;
+    margin: 0;
+    padding: 48px 64px;
+    -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
+    -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(-50%,-10%);
+    -ms-transform: translate(-50%,-10%);
+    transform: translate(-50%,-10%);
+  }
+}
+
+@media (min-width:1280px) {
+  .c15 {
     border-bottom: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -3325,7 +3241,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (min-width:1280px) {
-  .c25 {
+  .c26 {
     height: 76px;
   }
 }
@@ -3337,7 +3253,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (min-width:1280px) {
-  .c23 {
+  .c24 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -3355,7 +3271,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (min-width:1280px) {
-  .c23:before {
+  .c24:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -3419,7 +3335,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
 }
 
 @media (min-width:1280px) {
-  .c21 {
+  .c22 {
     display: none;
   }
 }
@@ -3510,13 +3426,17 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                     </svg>
                   </span>
                 </a>
+              </li>
+              <li
+                class="c11"
+              >
                 <ul
                   aria-label="About"
-                  class="c11"
+                  class="c12"
                 >
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about"
@@ -3527,7 +3447,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about/our-story"
@@ -3538,7 +3458,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about/board"
@@ -3549,7 +3469,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c13"
+                      class="c7 c14"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       tabindex="-1"
@@ -3559,7 +3479,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about/leadership"
@@ -3570,7 +3490,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about/awards"
@@ -3581,7 +3501,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about/careers"
@@ -3592,7 +3512,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                   </li>
                   <li>
                     <a
-                      class="c7 c12"
+                      class="c7 c13"
                       color="#3B46C4"
                       data-automation="ZA.navbar-item"
                       href="/about/press"
@@ -3604,10 +3524,10 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                 </ul>
               </li>
               <li
-                class="c14"
+                class="c15"
               >
                 <a
-                  class="c7 c15"
+                  class="c7 c16"
                   color="#3B46C4"
                   data-automation="ZA.navbar-item"
                   href="/contact"
@@ -3616,20 +3536,20 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                 </a>
               </li>
               <li
-                class="c16"
+                class="c17"
               >
                 <button
-                  class="c17 c18"
+                  class="c18 c19"
                   styling="primary"
                 >
                   <div
-                    class="c19"
+                    class="c20"
                   >
                     Sign in
                   </div>
                   <svg
                     aria-hidden="true"
-                    class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
+                    class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
                     color="#FFFFFF"
                     data-icon="user"
                     data-prefix="fas"
@@ -3651,7 +3571,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
           </nav>
         </div>
         <div
-          class="c21"
+          class="c22"
         >
           <nav
             class="c2"
@@ -3659,7 +3579,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
           >
             <button
               aria-label="Navigation"
-              class="c17 c22"
+              class="c18 c23"
               data-automation="hamburger-icon"
               styling="primary"
             >
@@ -3683,7 +3603,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
               </svg>
             </button>
             <div
-              class="c23"
+              class="c24"
             >
               <svg
                 aria-label="zopa logo"
@@ -3701,24 +3621,24 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
                 </title>
                 <g>
                   <path
-                    class="c24"
+                    class="c25"
                     d="M77 .3C88.8.3 97 8 97.4 19.2c0 5.3-2 10.1-5.7 13.6a20.8 20.8 0 01-14.5 5.5c-5.7 0-10.9-2-14.6-5.5A18.7 18.7 0 0157 19.2c0-5.3 2-10.1 5.6-13.6A21 21 0 0177.1.3zm57.7 1c4.5 0 8.2 1.2 10.7 3.5 2.4 2.4 3.8 5.8 3.8 10 0 8.6-5.4 14-14.1 14l-.4.1h-6.2v8.5h-10.8V1.2h17zm-98 0v1.2c0 6.9-7 13.6-12 18.5-1.8 1.7-3.4 3.3-4.4 4.6l-.2.3-.6.7h17v10.7H0V36c0-6.8 6.3-13 11.4-18 2.1-2 4-3.7 5-5.2v-.2l.5-.7H1.2V1.2h35.4zM194.1 1L208 37.2h-11.3l-2.2-5.8h-15l-2.3 5.8H166l13.8-36.1h14.4zM77 10.6a8.5 8.5 0 00-8.6 8.6 8.6 8.6 0 1017.2 0 8.6 8.6 0 00-8.6-8.6zM187 11.7L182.7 23h8.6L187 11.7zm-52.3-1.1h-6.2v9.3h6.2c2.7 0 4.5-2 4.5-4.8 0-2.7-1.8-4.5-4.5-4.5z"
                   />
                 </g>
               </svg>
             </div>
             <button
-              class="c17 c18"
+              class="c18 c19"
               styling="primary"
             >
               <div
-                class="c19"
+                class="c20"
               >
                 Sign in
               </div>
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-user fa-w-14 fa-lg c20"
+                class="svg-inline--fa fa-user fa-w-14 fa-lg c21"
                 color="#FFFFFF"
                 data-icon="user"
                 data-prefix="fas"
@@ -3741,7 +3661,7 @@ exports[`<Navbar /> should render the collapsed styled on large device navigatio
     </div>
   </header>
   <div
-    class="c25"
+    class="c26"
   />
 </div>
 `;
