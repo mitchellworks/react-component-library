@@ -10,6 +10,7 @@ const NavbarDropdownMenuItemContainer = styled.li`
   display: inline-block;
 `;
 const NavbarDropdownListContainer = styled.li`
+  //TODO: if table this wont be needed (added bc of accessibility errors)
   list-style-type: none;
   display: inline-block;
 `;
@@ -75,9 +76,23 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
   const [open, setOpen] = useState(false);
   const [cursor, setCursor] = useState(0);
   const dropdownMenuItemRef = useRef<HTMLLIElement>(null);
-  const dropdownListRef = useRef<HTMLUListElement>(null);
+  const dropdownListRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLAnchorElement | HTMLButtonElement>(null);
   const itemsRefs: RefObject<HTMLLIElement>[] = items.map(() => useRef<HTMLLIElement>(null));
+
+  const resultArray: Array<Item[]> = [];
+
+  const itemsCopy = items.slice();
+  itemsCopy.map((item) => {
+    if (item.isDropdownHeading) {
+      const subArray: Item[] = [];
+      subArray.push(item);
+      resultArray.push(subArray);
+    }
+    if (!item.isDropdownHeading && resultArray.length) {
+      resultArray[resultArray.length - 1].push(item);
+    }
+  });
 
   const handleFocusOutside = (e: Event) => {
     if (dropdownListRef && dropdownListRef.current && !dropdownListRef.current.contains(e.target as Node)) {
@@ -197,15 +212,42 @@ const NavbarDropdown: React.FC<NavbarDropdownProps> = ({
           open={open}
           ref={dropdownListRef}
         >
-          {items.map((item, index) => (
-            <li key={`${id}-${index}`}>
-              {renderItem({
-                close,
-                getItemProps: getItemProps(index),
-                item,
+          {resultArray.length ? (
+            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
+              {resultArray.map((item: Item[], index: number) => {
+                return (
+                  <div key={index}>
+                    <ul style={{ listStyle: 'none' }}>
+                      {item.map((subItem: Item, subIndex: number) => {
+                        return (
+                          <li key={`${id}-${subIndex}`}>
+                            {renderItem({
+                              close,
+                              getItemProps: getItemProps(subIndex),
+                              item: subItem,
+                            })}
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
+                );
               })}
-            </li>
-          ))}
+            </div>
+          ) : (
+            items.map(
+              (item, index) =>
+                index < 4 && (
+                  <li key={`${id}-${index}`}>
+                    {renderItem({
+                      close,
+                      getItemProps: getItemProps(index),
+                      item,
+                    })}
+                  </li>
+                ),
+            )
+          )}
         </NavbarDropdownList>
       </NavbarDropdownListContainer>
     </>

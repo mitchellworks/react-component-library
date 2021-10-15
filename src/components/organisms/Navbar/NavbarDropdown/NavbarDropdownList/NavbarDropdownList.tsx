@@ -4,13 +4,14 @@ import { colors, spacing } from '../../../../../constants';
 import { minMedia } from '../../../../../helpers/responsiveness';
 import { NavbarDropdownListContainer } from '../NavbarDropdown';
 
-const NavbarDropdownList = styled.ul<NavbarDropdownListContainer>`
+const NavbarDropdownList = styled.div<NavbarDropdownListContainer>`
   position: relative;
   z-index: 1;
   margin: ${spacing[3]} 0 ${spacing[3]};
   padding: 0;
   list-style-type: none;
   border-bottom: 1px solid ${colors.greyLighter};
+  border: 2px solid red;
 
   ${minMedia.desktop`
     ${css`
@@ -22,7 +23,7 @@ const NavbarDropdownList = styled.ul<NavbarDropdownListContainer>`
       min-width: 70vw;
       height: 338px;
       margin: 0;
-      padding: 48px 64px;
+      padding: 48px 38px;
     `}
 
     position: absolute;

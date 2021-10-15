@@ -93,10 +93,10 @@ export const navbarLinkStyles = css<StyledNavbarLinkProps>`
 
       color: ${colors.greyDarkest};
       text-transform: uppercase;
-      font-weight: 400;
+      font-weight: 700;
       font-size: ${typography.sizes.text.small};
 
-      border-top: 1px solid ${colors.greyLight};
+      /* border-top: 1px solid ${colors.greyLight}; */
       border-radius: 0px;
       outline: none;
       pointer-events: none;
