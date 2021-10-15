@@ -10,6 +10,7 @@ Object {
   padding: 0;
   list-style-type: none;
   border-bottom: 1px solid #EFEFEF;
+  border: 2px solid red;
 }
 
 .c1 {
@@ -115,7 +116,7 @@ Object {
     min-width: 70vw;
     height: 338px;
     margin: 0;
-    padding: 48px 64px;
+    padding: 48px 38px;
     -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
     -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
     transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
@@ -211,7 +212,7 @@ Object {
       <li
         class="c5"
       >
-        <ul
+        <div
           aria-label="About"
           class="c6"
         >
@@ -243,28 +244,7 @@ Object {
               Our leadership team
             </a>
           </li>
-          <li>
-            <a
-              href="/about/awards"
-            >
-              Awards
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about/careers"
-            >
-              Careers
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about/press"
-            >
-              Press office
-            </a>
-          </li>
-        </ul>
+        </div>
       </li>
       <li
         class="c7"
@@ -320,11 +300,11 @@ Object {
       </a>
     </li>
     <li
-      class="sc-htoDjs bNDTic"
+      class="sc-htoDjs jlaKoz"
     >
-      <ul
+      <div
         aria-label="About"
-        class="sc-bdVaJa cIYdiL"
+        class="sc-bdVaJa dAFUZg"
       >
         <li>
           <a
@@ -354,28 +334,7 @@ Object {
             Our leadership team
           </a>
         </li>
-        <li>
-          <a
-            href="/about/awards"
-          >
-            Awards
-          </a>
-        </li>
-        <li>
-          <a
-            href="/about/careers"
-          >
-            Careers
-          </a>
-        </li>
-        <li>
-          <a
-            href="/about/press"
-          >
-            Press office
-          </a>
-        </li>
-      </ul>
+      </div>
     </li>
     <li
       class="sc-dnqmqq dpUcYN"

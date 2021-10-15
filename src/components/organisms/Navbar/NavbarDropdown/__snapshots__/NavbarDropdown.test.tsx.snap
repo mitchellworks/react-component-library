@@ -8,6 +8,7 @@ exports[`<NavbarDropdown /> renders with no a11y violations 1`] = `
   padding: 0;
   list-style-type: none;
   border-bottom: 1px solid #EFEFEF;
+  border: 2px solid red;
 }
 
 .c1 {
@@ -100,7 +101,7 @@ exports[`<NavbarDropdown /> renders with no a11y violations 1`] = `
     min-width: 70vw;
     height: 338px;
     margin: 0;
-    padding: 48px 64px;
+    padding: 48px 38px;
     -webkit-transition: opacity 0.3s,-webkit-transform 0.3s,visibility 0.3s 0.3s;
     -webkit-transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
     transition: opacity 0.3s,transform 0.3s,visibility 0.3s 0.3s;
@@ -187,7 +188,7 @@ exports[`<NavbarDropdown /> renders with no a11y violations 1`] = `
   <li
     class="c5"
   >
-    <ul
+    <div
       aria-label="test"
       class="c6"
     >
@@ -207,7 +208,7 @@ exports[`<NavbarDropdown /> renders with no a11y violations 1`] = `
           two
         </a>
       </li>
-    </ul>
+    </div>
   </li>
 </ul>
 `;
